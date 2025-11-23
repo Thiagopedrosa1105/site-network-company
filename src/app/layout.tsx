@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Network Company | Innovative Technology Solutions in San Diego",
-  description: "Transform your business with cutting-edge technology. Network Company delivers world-class websites, mobile apps, and custom systems. From Brazil to San Diego - 5 years of innovation.",
+  title: "Network Company - Digital Innovation & Technology Solutions",
+  description: "Leading technology development company in San Diego, USA. We create cutting-edge websites, mobile apps, landing pages, and custom systems for businesses worldwide.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         <Script src="/lasy-bridge.js" strategy="beforeInteractive" />
       </head>
